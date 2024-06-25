@@ -1,0 +1,35 @@
+.node {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .node.source {
+    background-color: green;
+  }
+  
+  .node.destination {
+    background-color: blue;
+  }
+  
+  .pipeline-builder .controls {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .pipeline-builder .controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pipeline-builder .flow-container {
+    height: 100vh;
+    border-top: 1px solid #ccc;
+  }
+  
