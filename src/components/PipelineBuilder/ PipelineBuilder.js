@@ -10,6 +10,7 @@ import ReactFlow, {
 import "reactflow/dist/style.css";
 import "./PipelineBuilder.css";
 import { PlusIcon } from "@heroicons/react/outline";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const initialNodes = [];
 const initialEdges = [];
@@ -28,6 +29,7 @@ const initialEdges = [];
 const SourceNode = ({ data }) => (
   <div className="main-section">
     <div className="second-section">
+    <i className="fas fa-arrow-right"></i> {/* FontAwesome right arrow icon */}
     </div>
     <div className="label1">
       {data.label}
@@ -57,7 +59,7 @@ const DestinationNode = ({ data }) => (
      <div className="db2">db</div> 
     </div>
     <div className="last-section">
-      
+    <i className="fas fa-arrow-left"></i>
     </div>
     <Handle type="target" position="left" id="b" className="w-2 h-2 bg-red-500" />
   </div>
