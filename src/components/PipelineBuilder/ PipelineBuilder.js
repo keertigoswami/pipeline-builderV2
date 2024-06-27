@@ -37,7 +37,7 @@ const SourceNode = ({ data }) => (
        db
      </div>
     </div>
-    <Handle type="source" position="right" id="a" className="w-2 h-2 bg-blue-500" />
+    <Handle type="source" position="right" id="a" className="custom-handle-2" />
   </div>
 );
 
@@ -61,7 +61,7 @@ const DestinationNode = ({ data }) => (
     <div className="last-section">
     <i className="fas fa-arrow-left"></i>
     </div>
-    <Handle type="target" position="left" id="b" className="w-2 h-2 bg-red-500" />
+    <Handle  type="target" position="left" id="b" className="custom-handle" />
   </div>
 );
 

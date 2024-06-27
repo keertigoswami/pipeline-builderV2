@@ -121,6 +121,20 @@
     padding-left: 100px;
   }
 
+  .custom-handle {
+    width: 6px; 
+    height: 20px; 
+    background-color: rgb(181, 250, 103); 
+    border-radius: 0; 
+    border: 1px solid black; 
+  }
+.custom-handle-2{
+  width: 6px; 
+    height: 20px; 
+    background-color: rgb(182, 247, 145); 
+    border-radius: 0; 
+    border: 1px solid black; 
+}
   .second-des-section{
     font-weight: 500;
     font-size: 20px;
